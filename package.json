@@ -1,0 +1,42 @@
+{
+  "name": "punch-soundcloud-widget-helper",
+  "title": "Punch SoundCloud Widget Helper",
+  "description": "Easily include SoundCloud widgets in your punch site",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pietropizzi/punch-soundcloud-widget-helper",
+  "author": {
+    "name": "Peter Minarik",
+    "email": "peter@peterminarik.com",
+    "url": "http://peterminarik.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pietropizzi/punch-soundcloud-widget-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pietropizzi/punch-soundcloud-widget-helper/issues"
+  },
+  "main": "src/soundcloud_widget_helper",
+  "dependencies": {
+    "punch": ">= 0.4.0"
+  },
+  "devDependencies": {
+    "jasmine-node": ">= 1.0.26",
+    "jshint": ">= 0.9.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-watch": "~0.3.1"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "keywords": [
+    "punch",
+    "helper",
+    "soundcloud",
+    "widget"
+  ]
+}
